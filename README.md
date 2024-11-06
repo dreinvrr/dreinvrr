@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar 2020</title>
+    <style>
+        /* Body and Background */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://wallpapercave.com/wp/wp11855066.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            color: #333;
+        }
+
+        /* Center content */
+        .container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 50px;
+        }
+
+        /* Header Style */
+        h1 {
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            text-align: center;
+            margin-bottom: 50px;
+            font-size: 40px;
+        }
+
+        /* Calendar Table */
+        table {
+            border-collapse: collapse;
+            margin: 0 15px 30px 15px;
+        }
+
+        th, td {
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            vertical-align: middle;
+            font-size: 18px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+            color: tomato;
+            font-weight: bold;
+        }
+
+        td {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            cursor: pointer;
+        }
+
+        td:hover {
+            background-color: #f7f7f7;
+        }
+
+        .highlight {
+            color: tomato;
+        }
+
+        /* Month Headers */
+        h3 {
+            color: #fff;
+            text-align: center;
+            font-size: 25px;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        /* Month Container */
+        .month-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            font-size: 16px;
+            color: #fff;
+            margin-top: 50px;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Calendar 2020</h1>
+        
+        <div class="month-container">
+
+            <div>
+                <h3>January</h3>
+                <table>
+                    <tr>
+                        <th>Sun</th>
+                        <th>Mon</th>
+                        <th>Tue</th>
+                        <th>Wed</th>
+                        <th>Thu</th>
+                        <th>Fri</th>
+                        <th>Sat</th>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td class="highlight">1</td>
+                        <td class="highlight">2</td>
+                        <td class="highlight">3</td>
+                        <td class="highlight">4</td>
+                    </tr>
+                    <tr>
+                        <td class="highlight">5</td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td class="highlight">11</td>
+                    </tr>
+                    <tr>
+                        <td class="highlight">12</td>
+                        <td>13</td>
+                        <td>14</td>
+                        <td>15</td>
+                        <td>16</td>
+                        <td>17</td>
+                        <td class="highlight">18</td>
+                    </tr>
+                    <tr>
+                        <td class="highlight">19</td>
+                        <td>20</td>
+                        <td>21</td>
+                        <td>22</td>
+                        <td>23</td>
+                        <td>24</td>
+                        <td class="highlight">25</td>
+                    </tr>
+                    <tr>
+                        <td class="highlight">26</td>
+                        <td>27</td>
+                        <td>28</td>
+                        <td>29</td>
+                        <td>30</td>
+                        <td>31</td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div>
+                <h3>February</h3>
+                <table>
+                    <tr>
+                        <th>Sun</th>
+                        <th>Mon</th>
+                        <th>Tue</th>
+                        <th>Wed</th>
+                        <th>Thu</th>
+                        <th>Fri</th>
+                        <th>Sat</th>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td class="highlight">1</td>
+                    </tr>
+                    <tr>
+                        <td class="highlight">2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td class="highlight">8</td>
+                    </tr>
+                    <tr>
+                        <td class="highlight">9</td>
+                        <td>10</td>
+                        <td>11</td>
+                        <td>12</td>
+                        <td>13</td>
+                        <td>14</td>
+                        <td class="highlight">15</td>
+                    </tr>
+                    <tr>
+                        <td class="highlight">16</td>
+                        <td>17</td>
+                        <td>18</td>
+                        <td>19</td>
+                        <td>20</td>
+                        <td>21</td>
+                        <td class="highlight">22</td>
+                    </tr>
+                    <tr>
+                        <td class="highlight">23</td>
+                        <td>24</td>
+                        <td>25</td>
+                        <td>26</td>
+                        <td>27</td>
+                        <td>28</td>
+                        <td class="highlight">29</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div>
+                <h3>March</h3>
+                <table>
+                    <tr>
+                        <th class="highlight">Sun</th>
+                        <th>Mon</th>
+                        <th>Tue</th>
+                        <th>Wed</th>
+                        <th>Thu</th>
+                        <th>Fri</th>
+                        <th class="highlight">Sat</th>
+                    </tr>
+                    <tr>
+                        <td class="highlight">1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                        <td class="highlight">7</td>
+                    </tr>
+                    <tr>
+                        <td class="highlight">8</td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td>11</td>
+                        <td>12</td>
+                        <td>13</td>
+                        <td class="highlight">14</td>
+                    </tr>
+                    <tr>
+                        <td class="highlight">15</td>
+                        <td>16</td>
+                        <td>17</td>
+                        <td>18</td>
+                        <td>19</td>
+                        <td>20</td>
+                        <td class="highlight">21</td>
+                    </tr>
+                    <tr>
+                        <td class="highlight">22</td>
+                        <td>23</td>
+                        <td>24</td>
+                        <td>25</td>
+                        <td>26</td>
+                        <td>27</td>
+                        <td class="highlight">28</td>
+                    </tr>
+                    <tr>
+                        <td class="highlight">29</td>
+                        <td>30</td>
+                        <td>31</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <p>Porsche 911 GT3 RS</p>
+    </footer>
+
+</body>
+</html>
