@@ -1,11 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calendar 2020</title>
     <style>
-        /* Body and Background */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -17,7 +14,6 @@
             color: #333;
         }
 
-        /* Center content */
         .container {
             width: 100%;
             display: flex;
@@ -27,7 +23,6 @@
             margin-top: 50px;
         }
 
-        /* Header Style */
         h1 {
             color: #fff;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -36,7 +31,6 @@
             font-size: 40px;
         }
 
-        /* Calendar Table */
         table {
             border-collapse: collapse;
             margin: 0 15px 30px 15px;
@@ -70,17 +64,14 @@
             color: tomato;
         }
 
-        /* Month Headers */
         h3 {
             color: #fff;
             text-align: center;
             font-size: 25px;
             text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
-            margin-top: 0;
             margin-bottom: 20px;
         }
 
-        /* Month Container */
         .month-container {
             display: flex;
             justify-content: center;
@@ -88,7 +79,6 @@
             gap: 30px;
         }
 
-        /* Footer */
         footer {
             text-align: center;
             font-size: 16px;
@@ -98,10 +88,6 @@
             background-color: rgba(0, 0, 0, 0.5);
         }
 
-        footer a {
-            color: #fff;
-            text-decoration: none;
-        }
     </style>
 </head>
 <body>
@@ -127,9 +113,9 @@
                         <td></td>
                         <td></td>
                         <td></td>
-                        <td class="highlight">1</td>
-                        <td class="highlight">2</td>
-                        <td class="highlight">3</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
                         <td class="highlight">4</td>
                     </tr>
                     <tr>
@@ -228,13 +214,13 @@
                         <td>28</td>
                         <td class="highlight">29</td>
                     </tr>
-                </table>
-            </div>
+					</table>
+				</div>
 
-            <div>
-                <h3>March</h3>
-                <table>
-                    <tr>
+				<div>
+					<h3>March</h3>
+					<table>
+						<tr>
                         <th class="highlight">Sun</th>
                         <th>Mon</th>
                         <th>Tue</th>
@@ -290,7 +276,65 @@
                     </tr>
                 </table>
             </div>
-
+ <div>
+                <h3>April</h3>
+                <table>
+                    <tr>
+                        <th>Sun</th>
+                        <th>Mon</th>
+                        <th>Tue</th>
+                        <th>Wed</th>
+                        <th>Thu</th>
+                        <th>Fri</th>
+                        <th>Sat</th>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td class="highlight">4</td>
+                    </tr>
+                    <tr>
+                        <td class="highlight">5</td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                        <td>10</td>
+                        <td class="highlight">11</td>
+                    </tr>
+                    <tr>
+                        <td class="highlight">12</td>
+                        <td>13</td>
+                        <td>14</td>
+                        <td>15</td>
+                        <td>16</td>
+                        <td>17</td>
+                        <td class="highlight">18</td>
+                    </tr>
+                    <tr>
+                        <td class="highlight">19</td>
+                        <td>20</td>
+                        <td>21</td>
+                        <td>22</td>
+                        <td>23</td>
+                        <td>24</td>
+                        <td class="highlight">25</td>
+                    </tr>
+                    <tr>
+                        <td class="highlight">26</td>
+                        <td>27</td>
+                        <td>28</td>
+                        <td>29</td>
+                        <td>30</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
         </div>
     </div>
 
